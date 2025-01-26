@@ -1,1 +1,66 @@
 /* Ini File CSS */
+main {
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center
+}
+
+p {
+    text-align: justify;
+}
+    
+.main-header {
+    text-align: center
+}
+
+form {
+    background: lightgreen;
+    padding: 30px;
+    background-image: url('searchicon.png');
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+.result-section {
+    text-align: center;
+    background: lightgreen;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-cadet-blue {
+    background-color:rgb(34, 136, 3)
+}
+
+.form-group {   
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px
+}
+
+#result-bmi {
+    font-size: -webkit-xxx-large;
+    font-family: math;
+}
